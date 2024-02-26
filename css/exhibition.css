@@ -1,0 +1,38 @@
+.container-ex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+    
+    }
+    .info-ex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    }
+    .exhibition {
+    flex: 0 1 calc(50% - 10px);
+    padding: 10px;
+    text-align: center;
+    }
+    .exhibition img {
+    height: 432px;
+    width: 575px;
+    }
+    .read-ex {
+    margin-top: 10px;
+    }
+
+.info-cosmo {
+display: flex;
+justify-content: space-between;
+margin-bottom: 20px;
+justify-content: center;
+text-align: center;
+}
+.cosmo img {
+max-height: 100%;
+max-width: 100%;
+}

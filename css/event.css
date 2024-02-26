@@ -1,0 +1,26 @@
+.container-event {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    }
+    .events {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 100px;
+    }
+    .event img {
+    width: 420px;
+    height: 200px; 
+    }
+    .event button {
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+    border: 2px solid black;
+    margin: 10px;
+    }
+    
