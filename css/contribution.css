@@ -32,3 +32,32 @@ align-items: flex-start;
 padding-top: 100px;
 
 }
+
+.title {
+margin-top: 150px;
+margin-bottom: 100px;
+text-align: center;
+}
+
+p {
+color: #1a1a1a;
+margin: 0;
+line-height: 150%;
+font-size: 16px;
+font-family: 'Nunito';
+font-weight: 700;
+}
+    
+h1 {
+color: #FFFFFF;
+font-size: 48px;
+font-family: 'Roboto Slab';
+font-weight: 500;
+}
+    
+h2 {
+color: #FFFFFF;
+font-size: 36px;
+font-family: 'Roboto Slab';
+font-weight: 500;
+}

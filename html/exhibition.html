@@ -4,15 +4,41 @@
     <link rel="stylesheet" href="../css/body.css">
     <link rel="stylesheet" href="../css/event.css">
     <link rel="stylesheet" href="../css/exhibition.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exhibition Areas</title>
 </head>
 <body>
+
+    <header class="header">
+        <a href="#" class="museum">Science Museum</a>
+    
+    <input type="checkbox" id="check">
+        <label for="check" class=icon>
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-x' id="close-icon"></i>
+        </label>
+        
+        <nav class="navigation">
+            <a href="index.html" style="--i:0">Home</a>
+            <a href="information.html" style="--i:1">Information</a>
+            <a href="contribution.html" style="--i:2">Contribution</a>
+            <a href="exhibition.html" style="--i:3">Exhibition</a>
+            <a href="contact.html" style="--i:4">Contact</a>
+        </nav>
+    </header>
+
+    <div class="title">
+        <h1>Exhibition</h1>
+    </div>
+
     <div class="container-ex">
         <div class="info-ex">
             <div class="exhibition">
-                <h3>Evolution</h3>
+                <h4>Evolution</h4>
                 <img src="/images/evolution.jpg" alt="Evolution">
                 <div class="read-ex">
                 <p>For centuries, philosophers and scientists have wrestled with the question of our</p>
@@ -28,7 +54,7 @@
         </div>
 
             <div class="exhibition">
-                <h3>Biology and Medicine</h3>
+                <h4>Biology and Medicine</h4>
                 <img src="/images/biology.jpg" alt="Biology and Medicin">
                 <div class="read-ex">
                     <p>From micro-organisms to the human body, major breakthroughs in biology are</p>
@@ -47,7 +73,7 @@
 
         <div class="info-cosmo">
             <div class="cosmo">
-                <h3>Cosmology</h3>
+                <h4>Cosmology</h4>
                 <img src="/images/cosmology.png" alt="Cosmology">
                 <div class="read-ex">
                 <p>Explore the wonders of our cosmos. Our fantastic exhibition, "The Sky Above Us", explores the night sky and what we can </p>
@@ -62,7 +88,7 @@
 
         <div class="info-ex">
             <div class="exhibition">
-                <h3>Robotics and AI</h3>
+                <h4>Robotics and AI</h4>
                 <img src="/images/robotics-ai.jpg" alt="Robotics and AI">
                 <div class="read-ex">
                 <p>The information revolution is here and robotics and artificial intelligence are the </p>
@@ -73,7 +99,7 @@
         </div>
 
             <div class="exhibition">
-                <h3>Ecology</h3>
+                <h4>Ecology</h4>
                 <img src="/images/ecology.jpg" alt="Ecology">
                 <div class="read-ex">
                     <p>As we learn more and more of the impact humans are having on the planet, the</p>
@@ -125,14 +151,57 @@
             <p>It's a series of installations that allow visitors to</p>
             <p>experience the power of the elements as we harness them.</p>
             <p>From solar energy powering lighting, to 'Wind Island' that</p>
-            <p>shows how turbines are able to use and control wind to create power.</p>
+            <p>shows how turbines are able to 
+            <p>use and control wind to create power.</p>
                </div>
              </div>
          </div>
     </div>
-
-
-
+ 
     <img src="/images/exh-img.jpg" alt="Bottom image - exhibition">
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-row">
+                <div class="footer-colum">
+                    <h4>Main</h4>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Information</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Terms and Conditons</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-colum">
+                    <h4>Exhibition</h4>
+                    <ul>
+                        <li><a href="">Current Exhibitions</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-colum">
+                    <h4>Contribution</h4>
+                    <ul>
+                        <li><a href="">How to Contribute</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-colum">
+                    <h4>Social Media</h4>
+                    <ul>
+                        <li><a href="">Facebook</a></li>
+                        <li><a href="">Instagram</a></li>
+                        <li><a href="">Twitter</a></li>
+                        <li><a href="">Discord</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
 </body>
 </html>
