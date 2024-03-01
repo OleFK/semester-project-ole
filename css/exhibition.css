@@ -4,7 +4,6 @@ flex-wrap: wrap;
 justify-content: center;
 margin: 0 auto;
 flex-direction: column;
-    
     }
 .info-ex {
 display: flex;
@@ -12,28 +11,34 @@ justify-content: space-between;
 margin-bottom: 20px;
 border: 1px solid #007777;
 background-color: #007777;
-align-items: center;
+align-items: flex-start;
+padding-top: 30px;
+
 }
 
 .exhibition {
 flex: 0 1 calc(50% - 10px);
 text-align: center;
+max-width: 500px;
+margin: 0 auto;
+
 
 }
 .exhibition img {
-/*height: 432px;
-width: 575px;*/
 height: 330px;
 width: 500px;
 }
 .read-ex {
 margin-top: 10px;
+
+
+
 }
 
 .info-cosmo {
 display: flex;
 justify-content: space-between;
-margin-bottom: 20px;
+margin-top: -20px;
 justify-content: center;
 text-align: center;
 border: 1px solid #000000;
@@ -44,31 +49,84 @@ max-height: 100%;
 max-width: 100%;
 }
 
-h4 {
-color: #FFFFFF;
-font-size: 20px;
-font-family: 'Roboto Slab';
-font-weight: 500;
-margin: 10px;
-}
+@media only screen and (max-width: 480px) {
+    .exhibition {
+      flex: 1 1 100%;
+      margin-bottom: 20px;
+    }
 
-h1{
-color: #FFFFFF;
-font-size: 48px;
-font-family: 'Roboto Slab';
-font-weight: 500;
-}
-p {
-color: #FFFFFF;
-margin: 0;
-line-height: 150%;
-font-size: 14px;
-font-family: 'Nunito';
-font-weight: 400;
-}
+    .exhibition p {
+    font-size: 12px;
+    }
+  
+    .exhibition img {
+      width: 100%; 
+      height: auto; 
+    }
+  
+    .read-ex {
+      margin-top: 5px;
+    }
+    .read-ex p{
+    font-size: 12px;
+    }
+    .info-ex {
+    flex-direction: column;
+    
+    }
+  }
 
-.title {
-margin-top: 150px;
-margin-bottom: 100px;
-text-align: center;
-}
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    .exhibition {
+      flex: 1 1 calc(50% - 10px);
+      margin-bottom: 15px; 
+    }
+  
+    .exhibition img {
+      width: 100%; 
+      height: auto; 
+    }
+    .exhibition p {
+        font-size: 12px;
+        }
+    .read-ex {
+      margin-top: 10px;
+    }
+
+    .info-ex {
+        flex-direction: column;
+        }
+  }
+  
+  
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .exhibition {
+      flex: 1 1 calc(33.33% - 10px); 
+      margin-bottom: 15px; 
+    }
+  
+    .exhibition img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .read-ex {
+      margin-top: 10px;
+    }
+    .info-ex {
+    flex-direction: column;
+        }
+  }
+
+  @media only screen and (min-width: 1025px) {
+    .exhibition {
+      flex: 1 1 calc(25% - 10px);
+      margin-bottom: 15px;
+    }
+  
+  
+    .read-ex {
+      margin-top: 10px;
+    }
+    
+  }

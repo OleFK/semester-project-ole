@@ -7,17 +7,22 @@ margin-bottom: 60px;
 
 }
 .exhibitions img {
-width: 1488px;
-height: 720;
+
+width: 100%;
+height: auto;
 padding-bottom: 50px;
 }
-.exhibitions button {
+.exhibitions a {
 background-color: #FFFFFF;
 padding: 10px 20px;
 border-radius: 5px;
 font-size: 48px;
 cursor: pointer;
 border: 2px solid black;
+text-decoration: none;
+color: #000000;
+font-family: 'Nunito';
+font-weight: 700;
 }
 .container-info {
 display: flex;
@@ -25,38 +30,51 @@ flex-wrap: wrap;
 justify-content: center;
 margin: 0 auto;
 
+
 }
 .info-group {
 display: flex;
+flex-direction: row;
 margin-bottom: 20px;
 justify-content: space-between;
 
+
+
 }
 .info {
-flex: 0 1 calc(50% - 10px);
+flex: 1 1 100%;
 text-align: center;
 border: 1px solid #007777;
 background-color: #007777;
-margin-right: 20px;
-max-width: 500px;
+max-width: 100%;
+padding: 0 10px;
 padding-bottom: 10px;
+
+
 }
 .info img {
 height: 330px;
 width: 500px;
 }
+
 .read {
 margin-top: 10px;
 
 }
-.info button {
+.info a {
 background-color: #FFFFFF;
 padding: 10px 20px;
 border-radius: 5px;
 font-size: 13px;
+font-family: 'Nunito';
+font-weight: 700;
 cursor: pointer;
 border: 2px solid black;
 margin: 10px;
+text-decoration: none;
+display: inline-block;
+color: black;
+
 }
 .container-stars {
 display: flex;
@@ -69,29 +87,77 @@ width: 1182px;
 height: 510px;
 }
 
-h1 {
-color: #FFFFFF;
-font-size: 48px;
-font-family: 'Roboto Slab';
-font-weight: 500;
-}
-p {
-color: #FFFFFF;
-margin: 0;
-line-height: 150%;
-font-size: 14px;
-font-family: 'Nunito';
-font-weight: 700;
-}
 
-h2 {
-color: #FFFFFF;
-font-size: 36px;
-font-family: 'Roboto Slab';
-font-weight: 500;
-}
-.title {
-margin-top: 150px;
-margin-bottom: 100px;
-text-align: center;
-}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .exhibitions img {
+      width: 100%;
+      height: auto;
+      padding-bottom: 10px;
+    }
+
+    .info img {
+    max-width: 100%;
+    }
+  
+    .exhibitions a {
+      font-size: 20px;
+    }
+  .info-group {
+    flex-direction: column;
+  }
+    .info a {
+      font-size: 14px;
+    }
+  
+    .club img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    .exhibitions a {
+      font-size: 22px;
+    }
+  
+    .info a {
+      font-size: 15px;
+    }
+  .info img {
+    max-width: 100%;
+  }
+
+  .info-group {
+    flex-direction: column;
+  }
+  
+    .club img {
+      width: 100%;
+      height: auto; 
+    }
+  }
+  
+  
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .exhibitions a {
+      font-size: 24px;
+    }
+  
+    .info a {
+      font-size: 16px;
+    }
+
+    .info img {
+    max-width: 100%;
+    }
+    .info-group {
+        flex-direction: column;
+      }
+
+    .club img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
