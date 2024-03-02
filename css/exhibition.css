@@ -33,6 +33,9 @@ margin-top: 10px;
 
 
 
+
+
+
 }
 
 .info-cosmo {
@@ -55,9 +58,7 @@ max-width: 100%;
       margin-bottom: 20px;
     }
 
-    .exhibition p {
-    font-size: 12px;
-    }
+   
   
     .exhibition img {
       width: 100%; 
@@ -67,9 +68,7 @@ max-width: 100%;
     .read-ex {
       margin-top: 5px;
     }
-    .read-ex p{
-    font-size: 12px;
-    }
+    
     .info-ex {
     flex-direction: column;
     

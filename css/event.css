@@ -34,7 +34,9 @@
     color: #000000;
     }
 
-    #event-padding {
+    #event-padding1,
+    #event-padding2,
+    #event-padding3 {
     padding-bottom: 20px;
     padding-top: 20px;
     }
@@ -51,10 +53,7 @@
           padding-top: 20px;
           
         }
-      .event-info p {
-      font-size: 12px;
       
-      }
         .event-info a {
           font-size: 12px;
         }

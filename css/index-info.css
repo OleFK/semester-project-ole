@@ -37,15 +37,15 @@ display: flex;
 flex-direction: row;
 margin-bottom: 20px;
 justify-content: space-between;
-
+border: 1px solid #007777;
+background-color: #007777;
 
 
 }
 .info {
 flex: 1 1 100%;
 text-align: center;
-border: 1px solid #007777;
-background-color: #007777;
+
 max-width: 100%;
 padding: 0 10px;
 padding-bottom: 10px;
@@ -58,9 +58,14 @@ width: 500px;
 }
 
 .read {
-margin-top: 10px;
-
+padding-top: 20px;
+max-width: 500px;
 }
+
+.read-club  {
+padding-top: 30px;
+}
+
 .info a {
 background-color: #FFFFFF;
 padding: 10px 20px;
@@ -81,7 +86,10 @@ display: flex;
 justify-content: center;
 text-align: center;
 margin-bottom: 50px;
+
+
 }
+
 .club img {
 width: 1182px;
 height: 510px;
@@ -113,6 +121,7 @@ height: 510px;
       width: 100%;
       height: auto;
     }
+ 
   }
   
   

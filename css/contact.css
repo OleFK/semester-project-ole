@@ -144,12 +144,6 @@ border-radius: 20%;
       padding: 20px;
     }
 
-    .location p {
-        font-size: 12px;
-      }
-      .container2 p {
-        font-size: 12px;
-      }
     
     .contact-info {
       margin-right: 0;
@@ -182,8 +176,5 @@ border-radius: 20%;
     font-size: 36px;
     }
 
-    .image-container img {
-    max-width: 50%;
     
-        }
   }
