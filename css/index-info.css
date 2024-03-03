@@ -4,14 +4,12 @@ display: flex;
 align-items: center;
 flex-direction: column;
 margin-bottom: 60px;
-
 }
-.exhibitions img {
 
-width: 100%;
-height: auto;
+.exhibitions img {
 padding-bottom: 50px;
 }
+
 .exhibitions a {
 background-color: #FFFFFF;
 padding: 10px 20px;
@@ -24,14 +22,14 @@ color: #000000;
 font-family: 'Nunito';
 font-weight: 700;
 }
+
 .container-info {
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
-margin: 0 auto;
-
-
+margin: 200px;
 }
+
 .info-group {
 display: flex;
 flex-direction: row;
@@ -39,22 +37,14 @@ margin-bottom: 20px;
 justify-content: space-between;
 border: 1px solid #007777;
 background-color: #007777;
-
-
 }
+
 .info {
 flex: 1 1 100%;
 text-align: center;
-
 max-width: 100%;
 padding: 0 10px;
 padding-bottom: 10px;
-
-
-}
-.info img {
-height: 330px;
-width: 500px;
 }
 
 .read {
@@ -79,94 +69,81 @@ margin: 10px;
 text-decoration: none;
 display: inline-block;
 color: black;
-
 }
+
 .container-stars {
 display: flex;
 justify-content: center;
 text-align: center;
-margin-bottom: 50px;
-
-
-}
-
-.club img {
-width: 1182px;
-height: 510px;
+margin-bottom: 200px;
 }
 
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
-    .exhibitions img {
-      width: 100%;
-      height: auto;
-      padding-bottom: 10px;
-    }
+.exhibitions img {
+width: 100%;
+height: auto;
+padding-top: 50px;
+}
 
-    .info img {
-    max-width: 100%;
-    }
-  
-    .exhibitions a {
-      font-size: 20px;
-    }
-  .info-group {
-    flex-direction: column;
-  }
-    .info a {
-      font-size: 14px;
-    }
-  
-    .club img {
-      width: 100%;
-      height: auto;
-    }
- 
-  }
-  
-  
-  @media only screen and (min-width: 481px) and (max-width: 768px) {
-    .exhibitions a {
-      font-size: 22px;
-    }
-  
-    .info a {
-      font-size: 15px;
-    }
-  .info img {
-    max-width: 100%;
-  }
+.exhibitions a {
+font-size: 20px;
+}
+.info-group {
+flex-direction: column;
+max-width: 450px;
+}
 
-  .info-group {
-    flex-direction: column;
-  }
-  
-    .club img {
-      width: 100%;
-      height: auto; 
-    }
-  }
-  
-  
-  @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    .exhibitions a {
-      font-size: 24px;
-    }
-  
-    .info a {
-      font-size: 16px;
-    }
+.info-group img {
+max-width: 400px;
+}
 
-    .info img {
-    max-width: 100%;
-    }
-    .info-group {
-        flex-direction: column;
-      }
 
-    .club img {
-      width: 100%;
-      height: auto;
-    }
-  }
+.info a {
+font-size: 14px;
+}
+.club img {
+width: 100%;
+height: auto;
+}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+.exhibitions a {
+font-size: 22px;
+}
+  
+.info a {
+font-size: 15px;
+}
+.info-group {
+flex-direction: column;
+}
+.club img {
+width: 100%;
+height: auto; 
+}
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+.exhibitions a {
+font-size: 24px;
+}
+  
+.info a {
+font-size: 16px;
+}
+
+.info img {
+max-width: 100%;
+}
+.info-group {
+flex-direction: column;
+}
+
+.club img {
+width: 100%;
+height: auto;
+}
+}
   

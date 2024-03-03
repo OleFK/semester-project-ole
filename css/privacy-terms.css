@@ -4,6 +4,7 @@ flex-direction: column;
 padding: 50px;
 margin-top: 50px;
 }
+
 .container-tm {
 display: flex;
 flex-wrap: wrap;
@@ -13,7 +14,6 @@ padding-right: 20px;
 padding-bottom: 100px;
 }
 
-    
 .policy-term img {
 width: 100%;
 height: auto;
@@ -28,18 +28,19 @@ background-color: #007777;
 margin-top: 50px;
 flex: 1 1 300px;
 max-width: 590px;
-  
 }
 
 .pt-text {
 padding: 20px;
 }
 
+
 @media only screen and (min-width: 320px) and (max-width: 480px) {
     
 .container {
 padding: 20px;
 }
+
 .policy-term {
 flex: 1 1 100%; 
 max-width: 100%; 
@@ -49,7 +50,11 @@ max-width: 100%;
 font-size: 15px;
 }
 }
-  
+
+.bottom-terms img {
+max-width: 100%;
+}  
+
 @media only screen and (min-width: 481px) and (max-width: 768px) {
 
 .policy-term {

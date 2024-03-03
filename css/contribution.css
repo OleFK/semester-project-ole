@@ -27,26 +27,24 @@ display: block;
 align-items: flex-start;
 }
 
-/*.contribution-img img {
+.contribution-img img {
 padding-top: 100px;
 }
-*/
+
 
 @media only screen and (max-width: 480px) {
 .container img {
 flex-basis: 100%;
 margin-top: 20px;
 margin-bottom: 20px;
-
 }
   
 .contri-text {
 padding: 10px;    
 }
   
-.contri-img img {
-width: 150px;
-height: 150px;
+.contribution-img img {
+max-width: 100%;
 }
 }
   
@@ -57,7 +55,7 @@ flex-basis: calc(33.33% - 20px);
 margin-top: 50px;
 margin-bottom: 20px;
 }
-  
+
 .contri-text {
 padding: 15px;
 }
@@ -79,10 +77,10 @@ margin-bottom: 30px;
 .contri-text {
 padding: 20px;
 }
-  
+
 .contri-img img {
 width: 190px;
 height: 190px;
 }
-  }
+}
   

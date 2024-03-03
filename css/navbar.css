@@ -10,7 +10,6 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 z-index: 100;
-
 }
 
 .header::before {
@@ -40,11 +39,12 @@ text-decoration: none;
 font-weight: 800;
 font-family: 'Roboto Slab';
 margin-left: 2.5rem;
-
 }
+
 #check {
 display: none;
 }
+
 .icon {
 font-size: 2.8rem;
 color: #FFFFFF;
@@ -53,24 +53,30 @@ display: none;
 right: 5%;
 position: absolute;
 }
+
 @media (max-width: 992px) {
 .header {
 padding: 1.3rem 5%;
 }
 }
+
 @media (max-width: 768px) {
 .icon {
 display: inline-flex;
 }
+
 #check:checked~.icon #menu-icon {
 display: none;
 }
+
 .icon #close-icon {
 display: none;
 }
+
 #check:checked~.icon #close-icon {
 display: block;
 }
+
 .navigation {
 position: absolute;
 top: 100%;
@@ -79,13 +85,15 @@ width: 100%;
 height: 0;
 background: rgba(0, 0, 0, .1);
 backdrop-filter: blur(50px);
-box-shadow: 0.5rem 1rem rgba(0, 0, 0, .1);
+/*box-shadow: 0.5rem 1rem rgba(0, 0, 0, .1);*/
 overflow: hidden;
 transition: .3s ease;
 }
+
 #check:checked~.navigation {
 height: 17.7rem;
 }
+
 .navigation a{
 display: block;
 font-size: 1.1rem;
@@ -107,13 +115,16 @@ transition-delay: calc(.15s * var(--i));
 .header {
 padding: 1rem;
 }
+
 .museum {
 font-size: 1.2rem; 
 }
+
 .navigation a {
 font-size: 0.8rem;
 margin-left: 1rem;
 }
+
 .icon {
 display: block;
 }
