@@ -51,12 +51,10 @@ font-size: 14px;
 }
   
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-.event img {
-max-width: 400px;
-}
 
 .events {
 flex-direction: column;
+max-width: 430px;
 }
 
 .event-info a {
@@ -65,11 +63,14 @@ font-size: 13px;
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-.event img {
-max-width: 400px;
+
+.event-info {
+max-width: 100%;
 }
-.events {
+
+ .events{
 flex-direction: column;
+
 }
 .event-info a {
 font-size: 14px;

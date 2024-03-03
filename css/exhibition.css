@@ -94,7 +94,13 @@ margin-top: 10px;
 .info-ex {
 flex-direction: column;
 }
+
+.bottom-ex img {
+max-width: 100%;
 }
+}
+
+
   
   
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
@@ -115,6 +121,9 @@ margin-top: 10px;
 .info-ex {
 flex-direction: column;
 }
+.bottom-ex img {
+max-width: 100%;
+}
 }
 
 @media only screen and (min-width: 1025px) {
@@ -125,4 +134,7 @@ margin-bottom: 15px;
 .read-ex {
 margin-top: 10px;
 }  
+.bottom-ex img {
+max-width: 100%;
+}
 }
